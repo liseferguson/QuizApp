@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rashneesh Cult Quiz</title>
+    <meta name="description" content="A quiz to test your knowledge about the Rashneeshees, the cult that took over a small town in Oregon.">
+    <meta charset="utf-8">
+    
+<!-- html below sets content to adjest to different devices' widths accordingly -->    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!-- normalization -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+    
+<!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Shadows+Into+Light" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <header role="banner">
+      <div class="container">
+        <section class="startPageMsg">
+          <h1>The Divine Rashneesh Quiz</h1>
+          <h2>In the 1980s, a prominent cult built a city in the desert of rural Oregon, and things got a little out of hand</h2>
+              <img class="logo" src="https://i.pinimg.com/236x/37/36/45/37364537d2867b5698a797ff7491c7ac.jpg" alt= "Guru icon"/>
+        </section>
+        
+<!-- keeps track of which question user is currently on and current score --> 
+
+        <ul role="radiogroup">
+          <li role="radio">Question: <span class="questionNumber">0</span>/10</li>
+          <li>Score: <span class="score">0</span></li>
+        </ul>
+      </div>
+    </header>
+    
+      <div class="startPage">
+        <h2>Test your knowledge to see if you are on the party train to enlightenment...or damnned to be a square for eternity</h2>
+          <button type="button" class="js-start-button">Begin</button>
+      </div>
+      <div class="questionAnswerForm"></div>
+      
+<!-- link to jquery library -->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      
+<!-- link to both javascript files -->
+      <script type="text/javascript" src="datastore.js"></script>
+	    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
